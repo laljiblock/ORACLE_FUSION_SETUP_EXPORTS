@@ -1,0 +1,91 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Inventory Organizations_20251126_075315_530</ProcessName>
+      <ProcessDescription>Manage Inventory Organizations_20251126_075315_530</ProcessDescription>
+      <ProcessDate>2025-11-26 07:53:46.792</ProcessDate>
+      <ObjectShortName>INV_MANAGE_INVENTORY_ORGANIZATIONS</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>ehsg-dev1</ProcessEnv>
+      <ProcessStartDate>2025-11-26 07:53:15.305</ProcessStartDate>
+      <ProcessEndDate>2025-11-26 07:53:46.792</ProcessEndDate>
+      <ProcessRelease>11.13.25.10.0</ProcessRelease>
+      <SubmittedBy>lalji@squareup.com</SubmittedBy>
+      <ESSRequestId>39249364</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_INV_ITEM_ORG_CHILD_FOR_INVORG</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>EffectiveStartDate,EffectiveEndDate,ClassificationCode,Name,Status,InternalAddressLine,InternalExternalFlag,OrganizationCode,InventoryFlag,StartingRevision,LocationEffectiveStartDate,LocationEffectiveEndDate,InternalLocationCode,LocationSetCode,MasterOrgCode,BusinessUnitName,LegalEntityIdentifier,ItemGroupingCode,ItemDefinitionOrgCode,AttributeCategory,Attribute2,Attribute1,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,AttributeDate1,AttributeDate2,AttributeDate3,AttributeDate4,AttributeDate5,AttributeNumber1,AttributeNumber2,AttributeNumber3,AttributeNumber4,AttributeNumber5,AttributeNumber6,AttributeNumber7,AttributeNumber8,AttributeNumber9,AttributeNumber10,AttributeTimestamp1,AttributeTimestamp2,AttributeTimestamp3,AttributeTimestamp4,AttributeTimestamp5</XmlAttributeList>
+            <XmlAttributeTypeList>date,date,string,string,string,string,string,string,string,string,date,date,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,date,date,date,date,date,decimal,decimal,decimal,decimal,decimal,decimal,int,decimal,decimal,decimal,dateTime,dateTime,dateTime,dateTime,dateTime</XmlAttributeTypeList>
+            <XmlNodePath>/ItemOrganizationChildVO/ItemOrganizationChildVORow</XmlNodePath>
+            <NodeSequence>3</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_INV_ITEM_ORG_PARENT_FOR_INVORG</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>EffectiveStartDate,EffectiveEndDate,ClassificationCode,Name,Status,InternalAddressLine,InternalExternalFlag,OrganizationCode,MasterOrgCode,InventoryFlag,StartingRevision,LocationEffectiveStartDate,LocationEffectiveEndDate,InternalLocationCode,LocationSetCode,BusinessUnitName,LegalEntityIdentifier,ItemGroupingCode,ItemDefinitionOrgCode,AttributeCategory,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,AttributeDate1,AttributeDate2,AttributeDate3,AttributeDate4,AttributeDate5,AttributeNumber1,AttributeNumber2,AttributeNumber3,AttributeNumber4,AttributeNumber5,AttributeNumber6,AttributeNumber7,AttributeNumber8,AttributeNumber9,AttributeNumber10,AttributeTimestamp1,AttributeTimestamp2,AttributeTimestamp3,AttributeTimestamp4,AttributeTimestamp5</XmlAttributeList>
+            <XmlAttributeTypeList>date,date,string,string,string,string,string,string,string,string,string,date,date,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,date,date,date,date,date,decimal,decimal,decimal,decimal,decimal,decimal,int,decimal,decimal,decimal,dateTime,dateTime,dateTime,dateTime,dateTime</XmlAttributeTypeList>
+            <XmlNodePath>/ItemOrganizationMasterVO/ItemOrganizationMasterVORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_INV_ORG_PARENT_FOR_INVORG</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>EffectiveStartDate,EffectiveEndDate,ClassificationCode,InternalAddressLine,InternalExternalFlag,LegislationCode,Name,Status,AllocateSerialFlag,AllowDifferentStatus,AllowNegOnhandCcTxns,AutoBreakdownEnabled,AutoDelAllocFlag,AutoLotAlphaPrefix,AutoSerialAlphaPrefix,CapturePickingException,ChildLotAlphaPrefix,ChildLotNumberLength,ChildLotValidationFlag,ChildLotZeroPaddingFlag,CopyLotAttributeFlag,CreateLotUomConversion,DefaultLocatorOrderValue,DefaultSubinvOrderValue,DistributedOrganizationFlag,EnforceLocatorAlisUnqFlag,FifoOrigRcptDateFlag,FillKillMoveOrderFlag,InventoryFlag,LotNumberGeneration,LotNumberLength,LotNumberUniqueness,LotNumberZeroPadding,LpnPrefix,LpnStartingNumber,LpnSuffix,MoPickConfirmRequired,NegativeInvReceiptCode,OrganizationCode,OvpkTransferOrdersEnabled,ParentChildGenerationFlag,PickSlipBatchSize,PreFillPickedQty,PurchasingByRevision,ReplnshMoveOrderGrouping,RoundReorderQtyFlag,SerialNumberGeneration,SerialNumberType,StandardPackEnabled,StartAutoSerialNumber,StartingRevision,StockLocatorControlCode,TotalLpnLength,Ucc128SuffixFlag,InternalLocationCode,LocationEffectiveEndDate,LocationEffectiveStartDate,LocationSetCode,BusinessUnitName,RuleName,ReasonName,LegalEntityIdentifier,ScheduleName,MasterOrgCode,ProfitCenterBuName,MfgPlantFlag,ContractMfgFlag,SupplierName,SupplierSiteName,EamEnabledFlag,TimezoneCode,FillKillTransferOrdersFlag,IntegratedSystemCode,ItemGroupingCode,ItemDefinitionOrgCode,AttributeCategory,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,AttributeDate1,AttributeDate2,AttributeDate3,AttributeDate4,AttributeDate5,AttributeNumber1,AttributeNumber2,AttributeNumber3,AttributeNumber4,AttributeNumber5,AttributeNumber6,AttributeNumber7,AttributeNumber8,AttributeNumber9,AttributeNumber10,AttributeTimestamp1,AttributeTimestamp2,AttributeTimestamp3,AttributeTimestamp4,AttributeTimestamp5,SourceType,ProjectReferenceEnabled,TrackCountryOfOriginFlag,InternalCustomerFlag,PartyName,CustomerAccountNumber,UseCurItemCostFlag,SpecialHndlngOvrpkFlag,FABookTypeCode,AllowItemSubstitutions,WmsWithMfgAlm,FillKillSalesOrderFlag,KanbanCardPrefix,KanbanCardStartNumber,MaintTechWbEnabledFlag,ExpiredLotSubinventory,ExpiredSubinventorySIN,ExpiredLotLocation</XmlAttributeList>
+            <XmlAttributeTypeList>date,date,string,string,string,string,string,string,string,decimal,string,string,string,string,string,string,string,decimal,string,string,string,decimal,decimal,decimal,string,string,string,string,string,string,int,string,string,string,decimal,string,int,int,string,string,string,long,string,string,int,string,string,string,int,string,string,string,decimal,string,string,date,date,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,date,date,date,date,date,decimal,decimal,decimal,decimal,decimal,decimal,int,decimal,decimal,decimal,dateTime,dateTime,dateTime,dateTime,dateTime,string,decimal,string,string,string,string,string,string,string,string,string,string,string,long,string,string,long,string</XmlAttributeTypeList>
+            <XmlNodePath>/InventoryOrganizationMasterVO/InventoryOrganizationMasterVORow</XmlNodePath>
+            <NodeSequence>4</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>INV_ORGANIZATION_PARAMETER</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>EffectiveStartDate,EffectiveEndDate,ClassificationCode,InternalAddressLine,InternalExternalFlag,LegislationCode,Name,Status,AllocateSerialFlag,AllowDifferentStatus,AllowNegOnhandCcTxns,AutoBreakdownEnabled,AutoDelAllocFlag,AutoLotAlphaPrefix,AutoSerialAlphaPrefix,CapturePickingException,ChildLotAlphaPrefix,ChildLotNumberLength,ChildLotValidationFlag,ChildLotZeroPaddingFlag,CopyLotAttributeFlag,CreateLotUomConversion,DefaultLocatorOrderValue,DefaultSubinvOrderValue,DistributedOrganizationFlag,EnforceLocatorAlisUnqFlag,FifoOrigRcptDateFlag,FillKillMoveOrderFlag,InventoryFlag,LotNumberGeneration,LotNumberLength,LotNumberUniqueness,LotNumberZeroPadding,LpnPrefix,LpnStartingNumber,LpnSuffix,MoPickConfirmRequired,NegativeInvReceiptCode,OrganizationCode,OvpkTransferOrdersEnabled,ParentChildGenerationFlag,PickSlipBatchSize,PreFillPickedQty,PurchasingByRevision,ReplnshMoveOrderGrouping,RoundReorderQtyFlag,SerialNumberGeneration,SerialNumberType,StandardPackEnabled,StartAutoSerialNumber,StartingRevision,StockLocatorControlCode,TotalLpnLength,Ucc128SuffixFlag,InternalLocationCode,LocationEffectiveEndDate,LocationEffectiveStartDate,LocationSetCode,BusinessUnitName,RuleName,ReasonName,LegalEntityIdentifier,ScheduleName,MasterOrgCode,ProfitCenterBuName,MfgPlantFlag,ContractMfgFlag,SupplierName,SupplierSiteName,EamEnabledFlag,TimezoneCode,FillKillTransferOrdersFlag,IntegratedSystemCode,ItemGroupingCode,ItemDefinitionOrgCode,AttributeCategory,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,AttributeDate1,AttributeDate2,AttributeDate3,AttributeDate4,AttributeDate5,AttributeNumber1,AttributeNumber2,AttributeNumber3,AttributeNumber4,AttributeNumber5,AttributeNumber6,AttributeNumber7,AttributeNumber8,AttributeNumber9,AttributeNumber10,AttributeTimestamp1,AttributeTimestamp2,AttributeTimestamp3,AttributeTimestamp4,AttributeTimestamp5,SourceType,ProjectReferenceEnabled,TrackCountryOfOriginFlag,InternalCustomerFlag,CustomerAccountNumber,PartyName,UseCurItemCostFlag,SpecialHndlngOvrpkFlag,FABookTypeCode,AllowItemSubstitutions,WmsWithMfgAlm,FillKillSalesOrderFlag,KanbanCardPrefix,KanbanCardStartNumber,MaintTechWbEnabledFlag,ExpiredLotSubinventory,ExpiredSubinventorySIN,ExpiredLotLocation</XmlAttributeList>
+            <XmlAttributeTypeList>date,date,string,string,string,string,string,string,string,decimal,string,string,string,string,string,string,string,decimal,string,string,string,decimal,decimal,decimal,string,string,string,string,string,string,int,string,string,string,decimal,string,int,int,string,string,string,long,string,string,int,string,string,string,int,string,string,string,decimal,string,string,date,date,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,date,date,date,date,date,decimal,decimal,decimal,decimal,decimal,decimal,int,decimal,decimal,decimal,dateTime,dateTime,dateTime,dateTime,dateTime,string,decimal,string,string,string,string,string,string,string,string,string,string,string,long,string,string,long,string</XmlAttributeTypeList>
+            <XmlNodePath>/InventoryOrganizationChildVO/InventoryOrganizationChildVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>INV_ORGANIZATION_PARAMETER</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_INV_ITEM_ORG_CHILD_FOR_INVORG</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_INV_ITEM_ORG_PARENT_FOR_INVORG</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_INV_ORG_PARENT_FOR_INVORG</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>
