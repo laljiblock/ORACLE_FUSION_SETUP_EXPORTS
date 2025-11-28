@@ -1,20 +1,20 @@
 <MigrationProcessCSVMetadataVO>
    <MigrationProcessCSVMetadataVORow>
       <ProcessId>-999</ProcessId>
-      <ProcessName>Associate Customer with Inventory Organization_20251128_015315_974</ProcessName>
-      <ProcessDescription>Associate Customer with Inventory Organization_20251128_015315_974</ProcessDescription>
-      <ProcessDate>2025-11-28 13:53:30.327</ProcessDate>
+      <ProcessName>Associate Customer with Inventory Organization_20251128_020348_770</ProcessName>
+      <ProcessDescription>Associate Customer with Inventory Organization_20251128_020348_770</ProcessDescription>
+      <ProcessDate>2025-11-28 14:04:00.317</ProcessDate>
       <ObjectShortName>ORA_RCS_ASSOCIATE_CUSTOMER_WITH_INVENTORY_ORGANIZATION</ObjectShortName>
       <ObjectType>TASK</ObjectType>
       <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
       <ProcessType>EXPORT</ProcessType>
       <ProcessStatus>COMPLETED</ProcessStatus>
       <ProcessEnv>ehsg-dev1</ProcessEnv>
-      <ProcessStartDate>2025-11-28 13:53:15.712</ProcessStartDate>
-      <ProcessEndDate>2025-11-28 13:53:30.327</ProcessEndDate>
+      <ProcessStartDate>2025-11-28 14:03:48.069</ProcessStartDate>
+      <ProcessEndDate>2025-11-28 14:04:00.317</ProcessEndDate>
       <ProcessRelease>11.13.25.10.0</ProcessRelease>
       <SubmittedBy>lalji@squareup.com</SubmittedBy>
-      <ESSRequestId>39255301</ESSRequestId>
+      <ESSRequestId>39255326</ESSRequestId>
       <MigrationProcessBusinessObjectCSVMetadata1>
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
