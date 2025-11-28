@@ -1,0 +1,43 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Associate Fixed Asset Books with Inventory Organizations_20251128_015309_235</ProcessName>
+      <ProcessDescription>Associate Fixed Asset Books with Inventory Organizations_20251128_015309_235</ProcessDescription>
+      <ProcessDate>2025-11-28 13:53:30.301</ProcessDate>
+      <ObjectShortName>ORA_RCS_ASSOCIATE_FABOOK_WITH_INVENTORY_ORGANIZATION</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>ehsg-dev1</ProcessEnv>
+      <ProcessStartDate>2025-11-28 13:53:08.985</ProcessStartDate>
+      <ProcessEndDate>2025-11-28 13:53:30.301</ProcessEndDate>
+      <ProcessRelease>11.13.25.10.0</ProcessRelease>
+      <SubmittedBy>lalji@squareup.com</SubmittedBy>
+      <ESSRequestId>39255299</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_RCS_FIXED_ASSET_CORPORATE_BOOK_FOR_INVENTORY_ORGANIZATION</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>OrganizationCode,FABookTypeCode</XmlAttributeList>
+            <XmlAttributeTypeList>string,string</XmlAttributeTypeList>
+            <XmlNodePath>/FABookInvOrganizationVO/FABookInvOrganizationVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_RCS_FIXED_ASSET_CORPORATE_BOOK_FOR_INVENTORY_ORGANIZATION</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>
