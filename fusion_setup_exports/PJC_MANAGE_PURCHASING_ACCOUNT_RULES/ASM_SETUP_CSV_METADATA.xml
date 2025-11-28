@@ -1,0 +1,85 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Account Rules: Purchasing_20251128_114532_109</ProcessName>
+      <ProcessDescription>Manage Account Rules: Purchasing_20251128_114532_109</ProcessDescription>
+      <ProcessDate>2025-11-28 11:49:48.184</ProcessDate>
+      <ObjectShortName>PJC_MANAGE_PURCHASING_ACCOUNT_RULES</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>ehsg-dev1</ProcessEnv>
+      <ProcessStartDate>2025-11-28 11:45:32.198</ProcessStartDate>
+      <ProcessEndDate>2025-11-28 11:49:48.184</ProcessEndDate>
+      <ProcessRelease>11.13.25.10.0</ProcessRelease>
+      <SubmittedBy>lalji@squareup.com</SubmittedBy>
+      <ESSRequestId>39255075</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>XLA_ADR_RULE_COND</BusinessObjectShortName>
+            <BatchName>AccountRule</BatchName>
+            <XmlAttributeList>AccountingLineCode,AccountingLineTypeCode,AmbContextCode,BracketLeftCode,BracketRightCode,CreatedBy,CreationDate,EntityCode,EventClassCode,FlexfieldSegmentCode,IndependentValueConstant,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,LineOperatorCode,LogicalOperatorCode,SourceCode,SourceTypeCode,SourceOriginCode,UserSequence,ValueConstant,ValueFlexfieldSegmentCode,ValueSourceCode,ValueSourceTypeCode,ValueTypeCode,ValueSourceOriginCode,ApplicationShortName,SourceAppShortName,ValueSourceAppShortName,SegmentRuleCode,SegmentRuleTypeCode,UserSequence1,AmbContextCode1,ApplicationShortName1,DescriptionCode,DescriptionTypeCode,UserSequence2,AmbContextCode2,ApplicationShortName2,ApplicationShortNameXLA,SourceAppShortNameXLA,ValueSourceAppShortNameXLA,ApplicationShortNameXLA1,ApplicationShortNameXLA2</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,dateTime,string,string,string,string,dateTime,string,string,string,string,string,string,string,decimal,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/AccountRuleVO/AccountRuleVORow/AccountRuleDetail/AccountRuleDetailVORow/Condition/ConditionVORow</XmlNodePath>
+            <NodeSequence>3</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>XLA_ADR_RULE_DETAIL</BusinessObjectShortName>
+            <BatchName>AccountRule</BatchName>
+            <XmlAttributeList>AmbContextCode,CreatedBy,CreationDate,ValueTypeCode,InputSourceCode,InputSourceTypeCode,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,SegmentRuleCode,SegmentRuleTypeCode,UserSequence,ValueAdrVersionNum,ValueConstant,ValueFlexfieldSegmentCode,ValueMappingSetCode,ValueSegmentRuleCode,ValueSegmentRuleTypeCode,ValueSourceCode,ValueSourceTypeCode,ValueSourceOriginCode,ApplicationShortName,ApplicationShortName1,ApplicationShortName2,ValueCcidSegments,ChartOfAccountsID,IsConstantSet</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,dateTime,string,string,string,dateTime,string,string,string,string,decimal,long,string,string,string,string,string,string,string,string,string,string,string,string,long,boolean</XmlAttributeTypeList>
+            <XmlNodePath>/AccountRuleVO/AccountRuleVORow/AccountRuleDetail/AccountRuleDetailVORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>XLA_ADR_RULE</BusinessObjectShortName>
+            <BatchName>AccountRule</BatchName>
+            <XmlAttributeList>AmbContextCode,CreatedBy,CreationDate,Description,EnabledFlag,FlexfieldAssignModeCode,FlexfieldSegmentCode,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,Name,ReprioritizeFlag,SegmentRuleCode,SegmentRuleTypeCode,UpdatedFlag,VersionNum,ValueSetCode,KeyFlexfieldCode,StructureInstanceCode,KeyFlexfieldCode1,StructureInstanceCode1,ApplicationShortName,ApplicationShortNameAcc,ApplicationShortNameTra</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,dateTime,string,string,string,string,dateTime,string,string,string,string,string,string,string,long,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/AccountRuleVO/AccountRuleVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>XLA_ADR_RULE_TRANSLATION</BusinessObjectShortName>
+            <BatchName>AccountRule</BatchName>
+            <XmlAttributeList>AmbContextCode,CreatedBy,CreationDate,Description,Language,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,Name,SegmentRuleCode,SegmentRuleTypeCode,SourceLang</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,dateTime,string,string,dateTime,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/AccountRuleVO/AccountRuleVORow/AccountRuleTranslation/AccountRuleTranslationVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata>
+         <MigrationProcessBatchCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BatchName>AccountRule</BatchName>
+            <ImportSequence>0</ImportSequence>
+            <ServiceName>oracle.apps.financials.subledgerAccounting.accountingMethodSetup.accountRulesService.model.AccountRulesService</ServiceName>
+            <BatchSize>10</BatchSize>
+         </MigrationProcessBatchCSVMetadataVORow>
+      </MigrationProcessBatchCSVMetadata>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>XLA_ADR_RULE</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>XLA_ADR_RULE_DETAIL</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>
