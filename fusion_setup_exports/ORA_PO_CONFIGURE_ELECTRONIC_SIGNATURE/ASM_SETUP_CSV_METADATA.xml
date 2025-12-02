@@ -1,0 +1,43 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Configure Electronic Signature for Procurement Documents_20251202_084042_372</ProcessName>
+      <ProcessDescription>Configure Electronic Signature for Procurement Documents_20251202_084042_372</ProcessDescription>
+      <ProcessDate>2025-12-02 08:41:13.518</ProcessDate>
+      <ObjectShortName>ORA_PO_CONFIGURE_ELECTRONIC_SIGNATURE</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>ehsg-dev1</ProcessEnv>
+      <ProcessStartDate>2025-12-02 08:40:42.215</ProcessStartDate>
+      <ProcessEndDate>2025-12-02 08:41:13.518</ProcessEndDate>
+      <ProcessRelease>11.13.25.10.0</ProcessRelease>
+      <SubmittedBy>lalji@squareup.com</SubmittedBy>
+      <ESSRequestId>39265261</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_ZCA_ESIGNATURE_SETUP</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>Id,ObjectVersionNumber,EsignatureSetupCode,SolutionProviderCode,UserName,Password,ConfirmPassword,AccountId,AdobeSignRefreshToken,EndpointUrl,ValidationStatus,ValidationDate,CsfKeyName,CreatedBy,CreationDate,LastUpdatedBy,LastUpdateDate,LastUpdateLogin,APIKey,AdminGuid,OauthUrl,SuppDocusignExpRemPrefYn,LastUpdatedDisplayName</XmlAttributeList>
+            <XmlAttributeTypeList>long,int,string,string,string,string,string,string,string,string,string,date,string,string,dateTime,string,dateTime,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/CrmCommonEsignatureSetupVO/CrmCommonEsignatureSetupVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_ZCA_ESIGNATURE_SETUP</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>
