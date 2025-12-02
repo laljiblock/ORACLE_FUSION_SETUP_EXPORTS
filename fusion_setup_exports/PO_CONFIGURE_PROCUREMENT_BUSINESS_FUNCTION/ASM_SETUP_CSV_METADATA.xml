@@ -1,0 +1,93 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Configure Procurement Business Function_20251202_084043_704</ProcessName>
+      <ProcessDescription>Configure Procurement Business Function_20251202_084043_704</ProcessDescription>
+      <ProcessDate>2025-12-02 08:41:34.45</ProcessDate>
+      <ObjectShortName>PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>ehsg-dev1</ProcessEnv>
+      <ProcessStartDate>2025-12-02 08:40:43.561</ProcessStartDate>
+      <ProcessEndDate>2025-12-02 08:41:34.45</ProcessEndDate>
+      <ProcessRelease>11.13.25.10.0</ProcessRelease>
+      <SubmittedBy>lalji@squareup.com</SubmittedBy>
+      <ESSRequestId>39265263</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PON_CONTRACTS</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>VersionNum,ApplicationId,Body,VersionFlag,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,EnabledFlag,LastUpdateLogin,ShortCode</XmlAttributeList>
+            <XmlAttributeTypeList>decimal,long,clob,string,dateTime,string,dateTime,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/NegotiationTermsMigratorVO/NegotiationTermsMigratorVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PON_CONTRACTS_TRANSLATION</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>ApplicationId,Body,CreatedBy,CreationDate,Language,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,SourceLang,VersionNum</XmlAttributeList>
+            <XmlAttributeTypeList>long,clob,string,dateTime,string,dateTime,string,string,string,decimal</XmlAttributeTypeList>
+            <XmlNodePath>/NegotiationTermsMigratorVO/NegotiationTermsMigratorVORow/NegotiationTermsMigratorTranslation/NegotiationTermsMigratorTranslationVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PO_DOCUMENT_TYPE</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>Attribute1,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,AttributeCategory,CoContTermsLayoutCode,CoLayoutTemplate,ContractTemplateCode,CreatedBy,CreationDate,DocumentSubtype,DocumentTemplateCode,DocumentTypeCode,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,TypeName,ShortCode,EnterpriseId,CoTemplateCode,ResponseTemplateCode,TemplateExistsFlag</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,dateTime,string,string,string,dateTime,string,string,string,string,long,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/PurchasingDocumentTypeMigratorVO/PurchasingDocumentTypeMigratorVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PO_DOCUMENT_TYPE_TRANSLATION</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>CreatedBy,CreationDate,DocumentSubtype,DocumentTypeCode,Language,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,SourceLang,TypeName</XmlAttributeList>
+            <XmlAttributeTypeList>string,dateTime,string,string,string,dateTime,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/PurchasingDocumentTypeMigratorVO/PurchasingDocumentTypeMigratorVORow/PurchasingDocumentTypeMigratorTranslation/PurchasingDocumentTypeMigratorTranslationVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PO_SYSTEM_PARAMETER</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>AllowItemDescUpdateFlag,BestPriceVisibleBlind,CatAdminAuthoringAcceptance,CollabSecurityProfileId,CreateDebitMemoFlag,CreatedBy,CreationDate,CurrencyCode,DefaultPromiseDate,DefaultRateType,EmailAttachmentFilename,EnforceBuyerAuthorityFlag,EnforceMinBidPrice,EnforceVendorHoldFlag,FobLookupCode,FreightTermsLookupCode,GlobalAttribute1,GlobalAttribute10,GlobalAttribute11,GlobalAttribute12,GlobalAttribute13,GlobalAttribute14,GlobalAttribute15,GlobalAttribute16,GlobalAttribute17,GlobalAttribute18,GlobalAttribute19,GlobalAttribute2,GlobalAttribute20,GlobalAttribute3,GlobalAttribute4,GlobalAttribute5,GlobalAttribute6,GlobalAttribute7,GlobalAttribute8,GlobalAttribute9,GlobalAttributeCategory,GroupRequisitionLines,GroupRequisitions,HdrAttrDefaultMaxScore,HdrAttrDispScoreCriteria,HdrAttrEnableWeights,InspectionRequiredFlag,InvoiceCloseCode,InvoiceCloseTolerance,LanguageCode,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,ManualReceiptNumType,ManualReqNumType,MatchOption,MaxAttachmentSize,MinReleaseAmount,NextApproverLookupCode,NextNegotiationNumber,PriceBreakLookupCode,PriceChangeAmount,RankIndicator,RankVisibleBlind,ReceiveCloseCode,ReceiveCloseTolerance,ReceivingFlag,RfqOnlySiteFlag,SupplierAuthoringAcceptance,SupplierHistoryDuration,TaxFromItemFlag,TaxFromShipToLocFlag,TaxFromSystemFlag,TaxFromVendorFlag,TaxFromVendorSiteFlag,TaxHierItem,TaxHierShipToLoc,TaxHierSystem,TaxHierVendor,TaxHierVendorSite,TaxableFlag,UseRequestedDate,UseShipTo,UserDefinedReceiptNumCode,UserDefinedReqNumCode,ShortCode,EnterpriseId,Name,PartyName,LineTypeCode,StyleName,OrganizationCode,InternalName,AgingOnsetPoint,AgingPeriodDays,ConsumptionAdviceFrequency,ConsumptionAdviceSummary,ModeOfTransport,ServiceLevel,BuyerManagedTransportation,GenOrderForNegReqsFlag,SystemConfiguredFlag,AllowManulPriceUpdateOrder,NegApprovalEnabledFlag,AwardApprovalEnabledFlag,PoCreationProcess,DateFormatCode,LanguageCode1,NumberFormatCode,TimeFormatCode,TimezoneCode,PrcBuId1,OnlyShowNegFromBuFlag,UseShipToForGroupReqs,SourcingSuppEligibilityFlag,CommunicateCoFlag,AutoSourcingFlag,GenerateOrdersAutomatic,PunchoutSourcingOnlyFlag,SubmitApprovalAutomatic,CommunicatePaFlag,BypassApprovalFlag,InitiateApprovalFlag,EnforceTemplateFlag,DefaultSuppRespFromSqm,MatchingLineActionType,AutoStageReqLines</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,long,string,string,dateTime,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,decimal,string,string,string,string,decimal,string,dateTime,string,string,string,string,string,decimal,decimal,string,decimal,string,decimal,string,string,string,decimal,string,string,string,decimal,string,string,string,string,string,long,long,long,long,long,string,string,string,string,string,string,long,string,string,string,string,string,string,string,int,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,long,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/PurchasingSystemParameterMigratorVO/PurchasingSystemParameterMigratorVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PON_CONTRACTS</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PO_DOCUMENT_TYPE</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PO_SYSTEM_PARAMETER</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

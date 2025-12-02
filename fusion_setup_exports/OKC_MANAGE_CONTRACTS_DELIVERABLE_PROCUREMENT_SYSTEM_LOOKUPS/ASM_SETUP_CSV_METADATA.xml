@@ -1,0 +1,52 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Contract and Procurement System Integrations_20251202_084040_262</ProcessName>
+      <ProcessDescription>Manage Contract and Procurement System Integrations_20251202_084040_262</ProcessDescription>
+      <ProcessDate>2025-12-02 08:41:13.422</ProcessDate>
+      <ObjectShortName>OKC_MANAGE_CONTRACTS_DELIVERABLE_PROCUREMENT_SYSTEM_LOOKUPS</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>ehsg-dev1</ProcessEnv>
+      <ProcessStartDate>2025-12-02 08:40:40.11</ProcessStartDate>
+      <ProcessEndDate>2025-12-02 08:41:13.422</ProcessEndDate>
+      <ProcessRelease>11.13.25.10.0</ProcessRelease>
+      <SubmittedBy>lalji@squareup.com</SubmittedBy>
+      <ESSRequestId>39265258</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_OKC_DTS_PO_INTEG</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>TargetSystemCode,UserName,CsfKeyName,TopologyManagerCode,ActiveYn,InactiveDate,FusionInternalYn,CreatedBy,LastUpdatedBy,Name,Description,Password,EndPointUrl,IntegrationType,isdeleteDisabled</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,dateTime,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/DtsPoIntegSetupVO/DtsPoIntegSetupVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata>
+         <MigrationProcessScopeValueCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <MigScopeValueSetId>100002950370288</MigScopeValueSetId>
+            <BusinessObjectShortName>ORA_OKC_DTS_PO_INTEG</BusinessObjectShortName>
+            <ScopeValueBoAttributeId>mode</ScopeValueBoAttributeId>
+            <ScopeValueBoAttributeValue>edit</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>edit</ScopeValueBoAttributeValueCode>
+         </MigrationProcessScopeValueCSVMetadataVORow>
+      </MigrationProcessScopeValueCSVMetadata>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_OKC_DTS_PO_INTEG</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>
