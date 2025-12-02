@@ -1,20 +1,20 @@
 <MigrationProcessCSVMetadataVO>
    <MigrationProcessCSVMetadataVORow>
       <ProcessId>-999</ProcessId>
-      <ProcessName>Manage Contract and Procurement System Integrations_20251202_084040_262</ProcessName>
-      <ProcessDescription>Manage Contract and Procurement System Integrations_20251202_084040_262</ProcessDescription>
-      <ProcessDate>2025-12-02 08:41:13.422</ProcessDate>
+      <ProcessName>Manage Contract and Procurement System Integrations_20251202_105644_268</ProcessName>
+      <ProcessDescription>Manage Contract and Procurement System Integrations_20251202_105644_268</ProcessDescription>
+      <ProcessDate>2025-12-02 10:57:18.412</ProcessDate>
       <ObjectShortName>OKC_MANAGE_CONTRACTS_DELIVERABLE_PROCUREMENT_SYSTEM_LOOKUPS</ObjectShortName>
       <ObjectType>TASK</ObjectType>
       <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
       <ProcessType>EXPORT</ProcessType>
       <ProcessStatus>COMPLETED</ProcessStatus>
       <ProcessEnv>ehsg-dev1</ProcessEnv>
-      <ProcessStartDate>2025-12-02 08:40:40.11</ProcessStartDate>
-      <ProcessEndDate>2025-12-02 08:41:13.422</ProcessEndDate>
+      <ProcessStartDate>2025-12-02 10:56:44.143</ProcessStartDate>
+      <ProcessEndDate>2025-12-02 10:57:18.412</ProcessEndDate>
       <ProcessRelease>11.13.25.10.0</ProcessRelease>
       <SubmittedBy>lalji@squareup.com</SubmittedBy>
-      <ESSRequestId>39265258</ESSRequestId>
+      <ESSRequestId>39265566</ESSRequestId>
       <MigrationProcessBusinessObjectCSVMetadata1>
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
@@ -30,7 +30,7 @@
       <MigrationProcessScopeValueCSVMetadata>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100002950370288</MigScopeValueSetId>
+            <MigScopeValueSetId>100002949373318</MigScopeValueSetId>
             <BusinessObjectShortName>ORA_OKC_DTS_PO_INTEG</BusinessObjectShortName>
             <ScopeValueBoAttributeId>mode</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>edit</ScopeValueBoAttributeValue>
