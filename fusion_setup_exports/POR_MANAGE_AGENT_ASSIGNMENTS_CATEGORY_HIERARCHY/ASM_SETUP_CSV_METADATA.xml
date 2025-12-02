@@ -1,0 +1,85 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Procurement Category Hierarchy_20251202_084045_022</ProcessName>
+      <ProcessDescription>Manage Procurement Category Hierarchy_20251202_084045_022</ProcessDescription>
+      <ProcessDate>2025-12-02 08:41:13.803</ProcessDate>
+      <ObjectShortName>POR_MANAGE_AGENT_ASSIGNMENTS_CATEGORY_HIERARCHY</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>ehsg-dev1</ProcessEnv>
+      <ProcessStartDate>2025-12-02 08:40:44.874</ProcessStartDate>
+      <ProcessEndDate>2025-12-02 08:41:13.803</ProcessEndDate>
+      <ProcessRelease>11.13.25.10.0</ProcessRelease>
+      <SubmittedBy>lalji@squareup.com</SubmittedBy>
+      <ESSRequestId>39265265</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>POR_BROWSE_CATEGORY</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>CategoryName,CategoryDescription,ImageUrl,TYPE</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/BrowseCategoryVO/BrowseCategoryVORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>POR_BROWSE_CATEGORY_TRANSLATION</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>CategoryName,CategoryDescription,Language,SourceLang</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/BrowseCategoryVO/BrowseCategoryVORow/BrowseCategoryTranslation/BrowseCategoryTranslationVORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>POR_BROWSE_TREE</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>PurchasingCatFlag,TopCategoryFlag,ParentCategoryName,TYPE,ChildCategoryName,CategoryCode</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/BrowseCategoryTreeVO/BrowseCategoryTreeVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata>
+         <MigrationProcessScopeValueCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <MigScopeValueSetId>100002950370384</MigScopeValueSetId>
+            <BusinessObjectShortName>POR_BROWSE_TREE</BusinessObjectShortName>
+            <ScopeValueBoAttributeId>TYPE</ScopeValueBoAttributeId>
+            <ScopeValueBoAttributeValue>SOURCING</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>SOURCING</ScopeValueBoAttributeValueCode>
+         </MigrationProcessScopeValueCSVMetadataVORow>
+         <MigrationProcessScopeValueCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <MigScopeValueSetId>100002950370382</MigScopeValueSetId>
+            <BusinessObjectShortName>POR_BROWSE_CATEGORY</BusinessObjectShortName>
+            <ScopeValueBoAttributeId>TYPE</ScopeValueBoAttributeId>
+            <ScopeValueBoAttributeValue>SOURCING</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>SOURCING</ScopeValueBoAttributeValueCode>
+         </MigrationProcessScopeValueCSVMetadataVORow>
+      </MigrationProcessScopeValueCSVMetadata>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>POR_BROWSE_CATEGORY</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>POR_BROWSE_TREE</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>
