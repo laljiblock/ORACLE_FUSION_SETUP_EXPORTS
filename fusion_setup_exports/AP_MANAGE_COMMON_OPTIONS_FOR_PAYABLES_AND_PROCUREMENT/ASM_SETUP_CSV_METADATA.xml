@@ -1,0 +1,43 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Common Options for Payables and Procurement_20251202_084041_725</ProcessName>
+      <ProcessDescription>Manage Common Options for Payables and Procurement_20251202_084041_725</ProcessDescription>
+      <ProcessDate>2025-12-02 08:41:14.08</ProcessDate>
+      <ObjectShortName>AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>ehsg-dev1</ProcessEnv>
+      <ProcessStartDate>2025-12-02 08:40:41.584</ProcessStartDate>
+      <ProcessEndDate>2025-12-02 08:41:14.08</ProcessEndDate>
+      <ProcessRelease>11.13.25.10.0</ProcessRelease>
+      <SubmittedBy>lalji@squareup.com</SubmittedBy>
+      <ESSRequestId>39265260</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>AP_FINANCIAL_SYS_PARAM</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>LastUpdateDate,LastUpdatedBy,PaymentMethodLookupCode,UserDefinedVendorNumCode,VendorNumStartNum,AlwaysTakeDiscFlag,PayDateBasisLookupCode,InvoiceCurrencyCode,PaymentCurrencyCode,FuturePeriodLimit,ReqEncumbranceFlag,PurchEncumbranceFlag,ManualVendorNumType,LastUpdateLogin,CreationDate,CreatedBy,ReceiptAcceptanceDays,TermsDateBasis,HoldUnmatchedInvoicesFlag,ExclusivePaymentFlag,VatRegistrationNum,VatCountryCode,BankChargeBearer,MatchOption,GlobalAttributeCategory,GlobalAttribute1,GlobalAttribute2,GlobalAttribute3,GlobalAttribute4,GlobalAttribute5,GlobalAttribute6,GlobalAttribute7,GlobalAttribute8,GlobalAttribute9,GlobalAttribute10,GlobalAttribute11,GlobalAttribute12,GlobalAttribute13,GlobalAttribute14,GlobalAttribute15,GlobalAttribute16,GlobalAttribute17,GlobalAttribute18,GlobalAttribute19,GlobalAttribute20,NrTaxRounding,BuyingCompanyIdentifier,GaplessInvNumFlag,ExpenseAccrualCode,AutomaticOffsetsFlag,AutomaticOffsetsChangeFlag,LiabilityPostLookupCode,TransEffectiveStartDate,TransEffectiveEndDate,MakeRateMandatoryFlag,SOBName,BuName,EnterpriseId,AcctsPaySegments,PrepaySegments,DiscTakenSegments,GainSegments,LossSegments,FreightSegments,RateVarGainSegments,RateVarLossSegments,FutureDatedPaymentSegments,MiscChargeSegments,ExpenseAccrualSegments,PrepayTaxDiffSegments,EffectiveStartDate,EffectiveEndDate,SetCode,InternalLocationCode,MakeRateMandatoryPmtFlag,UserConversionRateType,UserDefaultPmtExchangeRateType,OneTimePayLiabSegments,OneTimePayExpenseSegments,RetainageSegments,UnclaimedFundsSegments</XmlAttributeList>
+            <XmlAttributeTypeList>dateTime,string,string,string,int,string,string,string,string,int,string,string,string,string,dateTime,string,long,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,date,date,string,string,string,long,string,string,string,string,string,string,string,string,string,string,string,string,date,date,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/FinancialsOptionVO/FinancialsOptionVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>AP_FINANCIAL_SYS_PARAM</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>
