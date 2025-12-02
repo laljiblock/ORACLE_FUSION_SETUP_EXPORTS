@@ -1,0 +1,2 @@
+"TargetSystemCode","UserName","CsfKeyName","TopologyManagerCode","ActiveYn","InactiveDate","FusionInternalYn","CreatedBy","LastUpdatedBy","Name","Description","Password","EndPointUrl","IntegrationType","isdeleteDisabled"
+"ORA_PURCHASING","","","","Y","2024/01/12 14:05:21.0","Y","SEED_DATA_FROM_APPLICATION","SEED_DATA_FROM_APPLICATION","Oracle Fusion Purchasing","Specifies seeded integration with Oracle Fusion Purchasing.","","","DIRECT","Y"
