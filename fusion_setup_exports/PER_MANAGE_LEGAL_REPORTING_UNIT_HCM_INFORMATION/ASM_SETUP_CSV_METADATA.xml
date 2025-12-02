@@ -1,0 +1,93 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Legal Reporting Unit HCM Information_20251202_104023_936</ProcessName>
+      <ProcessDescription>Manage Legal Reporting Unit HCM Information_20251202_104023_936</ProcessDescription>
+      <ProcessDate>2025-12-02 10:40:42.291</ProcessDate>
+      <ObjectShortName>PER_MANAGE_LEGAL_REPORTING_UNIT_HCM_INFORMATION</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>ehsg-dev1</ProcessEnv>
+      <ProcessStartDate>2025-12-02 10:40:24.14</ProcessStartDate>
+      <ProcessEndDate>2025-12-02 10:40:42.291</ProcessEndDate>
+      <ProcessRelease>11.13.25.10.0</ProcessRelease>
+      <SubmittedBy>lalji@squareup.com</SubmittedBy>
+      <ESSRequestId>39265535</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_PER_TRU_ORG_UNIT_CLASS</BusinessObjectShortName>
+            <BatchName>OrganizationMigration</BatchName>
+            <XmlAttributeList>ViewInstanceName,GroupingKey,LogicalStartDate,LogicalEndDate,EffectiveStartDate,EffectiveEndDate,OrganizationName,ClassificationName,SetCode,CategoryCode,LegislationCode,Status,OrgUnitClassificationId,OrganizationId,ClassificationCode,SetId</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,date,date,date,date,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/OrganizationMigrationVO/OrganizationMigrationVORow/OrgUnitClassificationMigrationVO/OrgUnitClassificationMigrationVORow</XmlNodePath>
+            <NodeSequence>3</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PAY_TAX_REPORTING_UNIT_ORG</BusinessObjectShortName>
+            <BatchName>OrganizationMigration</BatchName>
+            <XmlAttributeList>ViewInstanceName,GroupingKey,LogicalStartDate,LogicalEndDate,EffectiveStartDate,EffectiveEndDate,OrganizationCode,Name,Title,CostAllocationKeyflexId,EstablishmentName,InternalAddressLine,InternalExternalFlag,LegalEntityIdentifier,LocationCode,LocationSetCode,Type,GUID,ActionReasonUsagesId,ActionCode,ActionReasonCode,OrganizationId,EstablishmentId,LegalEntityId,LocationId,LocationSetId,ActionId,ActionOccurrenceId,ActionReasonId</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,date,date,date,date,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/OrganizationMigrationVO/OrganizationMigrationVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PAY_TAX_REPORTING_UNIT_ORG_TRANSLATION</BusinessObjectShortName>
+            <BatchName>OrganizationMigration</BatchName>
+            <XmlAttributeList>ViewInstanceName,GroupingKey,LogicalStartDate,LogicalEndDate,EffectiveStartDate,EffectiveEndDate,Name,Title,GUID,SourceLang,Language,ClassificationCode,ClassificationName,OrganizationCode,OrganizationId</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,date,date,date,date,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/OrganizationMigrationVO/OrganizationMigrationVORow/OrganizationMigrationTranslationVO/OrganizationMigrationTranslationVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata>
+         <MigrationProcessBatchCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BatchName>OrganizationMigration</BatchName>
+            <ImportSequence>0</ImportSequence>
+            <ServiceName>oracle.apps.hcm.organizations.migration.taxReportingUnitServiceV2.TaxReportingUnitMigrationServiceV2</ServiceName>
+            <BatchSize>500</BatchSize>
+         </MigrationProcessBatchCSVMetadataVORow>
+      </MigrationProcessBatchCSVMetadata>
+      <MigrationProcessScopeValueCSVMetadata>
+         <MigrationProcessScopeValueCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <MigScopeValueSetId>100002950373449</MigScopeValueSetId>
+            <BusinessObjectShortName>PAY_TAX_REPORTING_UNIT_ORG</BusinessObjectShortName>
+            <ScopeValueBoAttributeId>flowToDisplay</ScopeValueBoAttributeId>
+            <ScopeValueBoAttributeValue>TRU</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>TRU</ScopeValueBoAttributeValueCode>
+         </MigrationProcessScopeValueCSVMetadataVORow>
+         <MigrationProcessScopeValueCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <MigScopeValueSetId>100002950373447</MigScopeValueSetId>
+            <BusinessObjectShortName>ORA_PER_TRU_ORG_UNIT_CLASS</BusinessObjectShortName>
+            <ScopeValueBoAttributeId>flowToDisplay</ScopeValueBoAttributeId>
+            <ScopeValueBoAttributeValue>TRU</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>TRU</ScopeValueBoAttributeValueCode>
+         </MigrationProcessScopeValueCSVMetadataVORow>
+      </MigrationProcessScopeValueCSVMetadata>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PAY_TAX_REPORTING_UNIT_ORG</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_PER_TRU_ORG_UNIT_CLASS</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>
