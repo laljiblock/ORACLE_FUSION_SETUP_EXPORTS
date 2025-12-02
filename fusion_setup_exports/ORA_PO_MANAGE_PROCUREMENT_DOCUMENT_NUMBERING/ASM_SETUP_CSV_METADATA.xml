@@ -1,0 +1,43 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Procurement Document Numbering_20251202_084044_406</ProcessName>
+      <ProcessDescription>Manage Procurement Document Numbering_20251202_084044_406</ProcessDescription>
+      <ProcessDate>2025-12-02 08:41:14.597</ProcessDate>
+      <ObjectShortName>ORA_PO_MANAGE_PROCUREMENT_DOCUMENT_NUMBERING</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>ehsg-dev1</ProcessEnv>
+      <ProcessStartDate>2025-12-02 08:40:44.259</ProcessStartDate>
+      <ProcessEndDate>2025-12-02 08:41:14.597</ProcessEndDate>
+      <ProcessRelease>11.13.25.10.0</ProcessRelease>
+      <SubmittedBy>lalji@squareup.com</SubmittedBy>
+      <ESSRequestId>39265264</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_PO_UNIQUE_IDENTIFIER_CONT_ALL</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>DeterminantType,MinimumDigits,Prefix,Suffix,TableName,EnterpriseId,ShortCode,LegalEntityIdentifier</XmlAttributeList>
+            <XmlAttributeTypeList>string,long,string,string,string,long,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/PurchasingUniqueIdentifierMigratorVO/PurchasingUniqueIdentifierMigratorVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_PO_UNIQUE_IDENTIFIER_CONT_ALL</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>
