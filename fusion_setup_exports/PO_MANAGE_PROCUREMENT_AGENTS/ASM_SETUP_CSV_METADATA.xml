@@ -1,0 +1,67 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Procurement Agents_20251202_084040_921</ProcessName>
+      <ProcessDescription>Manage Procurement Agents_20251202_084040_921</ProcessDescription>
+      <ProcessDate>2025-12-02 08:43:19.312</ProcessDate>
+      <ObjectShortName>PO_MANAGE_PROCUREMENT_AGENTS</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>ehsg-dev1</ProcessEnv>
+      <ProcessStartDate>2025-12-02 08:40:40.862</ProcessStartDate>
+      <ProcessEndDate>2025-12-02 08:43:19.312</ProcessEndDate>
+      <ProcessRelease>11.13.25.10.0</ProcessRelease>
+      <SubmittedBy>lalji@squareup.com</SubmittedBy>
+      <ESSRequestId>39265259</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PO_AGENT</BusinessObjectShortName>
+            <BatchName>ProcurementAgentAssignmentsMigrator1</BatchName>
+            <XmlAttributeList>ActiveFlag,Attribute1,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Attribute16,Attribute17,Attribute18,Attribute19,Attribute2,Attribute20,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,AttributeCategory,AttributeDate1,AttributeDate10,AttributeDate2,AttributeDate3,AttributeDate4,AttributeDate5,AttributeDate6,AttributeDate7,AttributeDate8,AttributeDate9,AttributeNumber1,AttributeNumber10,AttributeNumber2,AttributeNumber3,AttributeNumber4,AttributeNumber5,AttributeNumber6,AttributeNumber7,AttributeNumber8,AttributeNumber9,AttributeTimestamp1,AttributeTimestamp10,AttributeTimestamp2,AttributeTimestamp3,AttributeTimestamp4,AttributeTimestamp5,AttributeTimestamp6,AttributeTimestamp7,AttributeTimestamp8,AttributeTimestamp9,DefaultPrinterName,EnterpriseId,ShortCode,ReqShortCode,ReqEnterpriseId,ListName,EmailAddress</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,date,date,date,date,date,date,date,date,date,date,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,dateTime,dateTime,dateTime,dateTime,dateTime,dateTime,dateTime,dateTime,dateTime,dateTime,string,long,string,string,long,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/ProcurementAgentAssignmentsMigratorVO/ProcurementAgentAssignmentsMigratorVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_PO_AGENT_ACCESS</BusinessObjectShortName>
+            <BatchName>ProcurementAgentAssignmentsMigrator1</BatchName>
+            <XmlAttributeList>AccessActionCode,AccessOthersLevelCode,ActiveFlag,AllowedFlag,ReqShortCode,ReqEnterpriseId,EnterpriseId,ShortCode,ListName,EmailAddress</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,long,long,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/ProcurementAgentAssignmentsMigratorVO/ProcurementAgentAssignmentsMigratorVORow/ProcurementAgentAccessesMigrator/ProcurementAgentAccessesMigratorVORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata>
+         <MigrationProcessBatchCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BatchName>ProcurementAgentAssignmentsMigrator1</BatchName>
+            <ImportSequence>0</ImportSequence>
+            <ServiceName>oracle.apps.prc.po.setup.migratorService.procurementAgentService.applicationModule.server.ProcurementAgentMigratorService</ServiceName>
+            <BatchSize>500</BatchSize>
+         </MigrationProcessBatchCSVMetadataVORow>
+      </MigrationProcessBatchCSVMetadata>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_PO_AGENT_ACCESS</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PO_AGENT</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>
